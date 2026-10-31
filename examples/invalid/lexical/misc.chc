@@ -1,0 +1,5 @@
+jungle {
+    banan int estaEsUnaVariableConUnNombreDemasiadoLargo = 1;
+    banan string path = "C:\carpeta\nueva";
+    banan int año = 2026;
+}

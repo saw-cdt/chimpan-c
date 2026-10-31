@@ -1,0 +1,21 @@
+// banana_count.chc - variables globales, %, break, continue y void
+banan int total = 0;
+
+void eat(int amount) {
+    total = total + amount;
+}
+
+jungle {
+    banan int day = 0;
+    while (true) {
+        day = day + 1;
+        if (day % 2 == 0) {
+            continue;           // los días pares el chango descansa
+        }
+        eat(3);
+        if (total >= 12 || day > 30) {
+            break;
+        }
+    }
+    print("Bananas comidas: ", total, " en ", day, " dias\n");
+}

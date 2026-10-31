@@ -1,0 +1,8 @@
+// hello.chc - primer programa en Chimpan-C
+/* El bloque jungle es el punto de entrada
+   del programa (equivale a main). */
+jungle {
+    banan string monkey = "Chimpancín";
+    print("Hello, jungle!\n");
+    print("Soy ", monkey, " y tengo hambre de \"bananas\"\n");
+}

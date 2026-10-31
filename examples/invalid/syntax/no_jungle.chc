@@ -1,0 +1,5 @@
+// Léxicamente correcto, pero no existe el bloque principal jungle
+int square(int n) {
+    throw n * n;
+}
+banan int y = square(4);

@@ -1,0 +1,5 @@
+// Léxica y sintácticamente correcto, pero con errores de tipo
+jungle {
+    banan int bananas = "doce";
+    banan bool hungry = 3 + true;
+}

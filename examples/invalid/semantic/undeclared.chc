@@ -1,0 +1,6 @@
+// Uso de variable no declarada y redeclaración en el mismo alcance
+jungle {
+    banan int x = 1;
+    banan int x = 2;
+    print(y);
+}

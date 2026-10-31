@@ -1,0 +1,22 @@
+// average.chc - lectura con grab, flotantes y operadores lógicos
+float average(float a, float b, float c) {
+    throw (a + b + c) / 3.0;
+}
+
+jungle {
+    banan float x;
+    banan float y;
+    banan float z;
+    grab(x);
+    grab(y);
+    grab(z);
+
+    banan float avg = average(x, y, z);
+    banan bool passed = avg >= 70.0 && !(avg > 100.0);
+
+    if (passed) {
+        print("Aprobado con ", avg, "\n");
+    } else {
+        print("Reprobado con ", avg, "\n");
+    }
+}

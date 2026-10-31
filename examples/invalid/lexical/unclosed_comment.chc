@@ -1,0 +1,5 @@
+jungle {
+    banan int x = 1;
+    /* este comentario nunca se cierra
+    print(x);
+}

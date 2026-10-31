@@ -1,0 +1,7 @@
+jungle {
+    banan int $price = 10;
+    banan int stock = 5 # comentario estilo Python
+    if (stock > 0 & price > 0) {
+        print('sin comillas dobles');
+    }
+}

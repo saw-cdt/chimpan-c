@@ -1,0 +1,6 @@
+jungle {
+    banan float pi = 3.14.15;
+    banan int bananas = 12abc;
+    banan float half = 5.;
+    banan int huge = 99999999999;
+}

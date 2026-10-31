@@ -1,0 +1,16 @@
+// factorial.chc - función recursiva, if/else y while
+int fact(int n) {
+    if (n <= 1) {
+        throw 1;
+    } else {
+        throw n * fact(n - 1);
+    }
+}
+
+jungle {
+    banan int i = 1;
+    while (i <= 5) {
+        print("fact(", i, ") = ", fact(i), "\n");
+        i = i + 1;
+    }
+}
